@@ -1,0 +1,121 @@
+@import url(./reset.css);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* решил разместить иконку через позицию, добавил падинг */
+.search-form {
+  width: 835px;
+  height: 40px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+
+  /* Основные / Серый средний */
+
+  color: #bbc4d6;
+
+  background: #ffffff;
+  /* Основные / Серый светлый */
+
+  border: 1px solid #ebebf1;
+  border-radius: 5px;
+
+  padding-left: 39px;
+}
+
+.form {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+}
+.smal__profile {
+  display: none;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-left: 1px solid #ebebf1;
+  height: 100%;
+  padding-left: 19px;
+}
+.profile .wrapper {
+  flex-direction: column;
+}
+.main-content .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.partners {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  /* identical to box height, or 58px */
+
+  text-transform: uppercase;
+
+  /* Основные / Черно-синий */
+
+  color: #121920;
+  margin-top: 70px;
+}
+
+.brands {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+
+  margin-top: 30px;
+}
+
+.tc {
+  border: 1px solid #ebebf1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(164, 164, 164, 0.03);
+  border-radius: 5px;
+  width: 287.5px;
+  height: 120px;
+}
