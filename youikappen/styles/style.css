@@ -1,0 +1,405 @@
+@import url(../styles/reset.css);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-holder {
+  width: 100%;
+  height: 764px;
+
+  background-color: #f3f3f3;
+  z-index: -1;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.header {
+  width: 100%;
+  height: 64px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+.wrapper__header {
+  margin-top: 29px;
+}
+.logo {
+}
+.logo__header {
+}
+.logo-link {
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__header {
+  gap: 40px;
+}
+.nav-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #8b8b8b;
+}
+
+.nav-link:hover {
+  color: #424242;
+}
+
+.btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  background: #424242;
+  border: 1px solid #000000;
+  border-radius: 8px;
+
+  padding: 20px 28px;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.banner {
+  background-image: url(../assets/img/Main-IMG.png);
+  background-repeat: no-repeat;
+  background-position: top 0 left 30px;
+
+  padding-bottom: 249px;
+}
+
+.wrapper__banner {
+  align-items: center;
+  justify-content: flex-end;
+}
+.banner-info {
+  margin-top: 103px;
+}
+.heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 93px;
+
+  /* Black */
+
+  color: #424242;
+}
+.banner__heading {
+  max-width: 662px;
+}
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Gray (Muted) */
+
+  color: #8b8b8b;
+}
+.banner__text {
+  max-width: 431px;
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+.get-info {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  /* Black */
+
+  color: #424242;
+}
+.banner__get-info {
+}
+
+.promo {
+  background-image: url(../assets/img/1Vctor.png);
+  background-repeat: no-repeat;
+  background-position: right 125px top 45px;
+}
+.wrapper {
+}
+.promo__wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.add-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  /* Gray (Muted) */
+
+  color: #8b8b8b;
+
+  margin-top: 132px;
+}
+
+.heading-2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+
+  /* Black */
+
+  color: #424242;
+}
+
+.promo__heading {
+  max-width: 556px;
+  margin-top: 8px;
+}
+
+.promo__text {
+  max-width: 516px;
+  margin-top: 24px;
+}
+.get-info {
+}
+.promo__get-info {
+  margin-top: 24px;
+}
+
+.projects {
+  margin-top: 172px;
+}
+
+.projects__wrapper {
+  flex-direction: column;
+}
+
+.project-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Gray (Muted) */
+
+  color: #8b8b8b;
+}
+
+.projects-block {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+
+  margin-top: 64px;
+}
+.project {
+  width: 556px;
+  height: 451px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.project__1 {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+
+  background-image: url(../assets/img/image\ 3GOOGLE\ ANALYSTIC.png),
+    url(../assets/icons/Google-table.png),
+    url(../assets/icons/Google-white-bg.png),
+    url(../assets/icons/Google-yellow-bg.png);
+  background-repeat: no-repeat;
+  background-position: left 32px top 32px, right 32px bottom 32px,
+    right 0 bottom 0, right 0 top 150px;
+}
+
+.project__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+
+  /* Black */
+
+  color: #424242;
+  max-width: 237px;
+
+  margin: 32px;
+}
+.project__2 {
+  background-image: url(../assets/img/image\ 3TIKTOK.png),
+    url(../assets/icons/image\ 2tik-tock-logo.png),
+    url(../assets/icons/Intersecttik-TOK-back-GB.png),
+    url(../assets/icons/Intersecttik-TOK\ red-BG.png);
+  background-repeat: no-repeat;
+  background-position: left 32px top 32px, bottom 32px right 32px,
+    right 0 bottom 0, right 0 top 150px;
+}
+
+.get-info__projects {
+  margin-top: 62px;
+}
+
+.clients {
+  margin-top: 140px;
+}
+.wrapper {
+}
+.wrapper__clients {
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-text {
+}
+.reviews {
+  display: flex;
+  align-items: center;
+
+  margin-top: 64px;
+}
+.reviews-block {
+  display: flex;
+  align-items: flex-start;
+}
+.reviews-block__1 {
+  box-shadow: 0px 18px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.reviewers-photo {
+  margin-right: 32px;
+
+  padding: 18px;
+}
+.reviews-info {
+}
+.reviewer-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  /* Black */
+
+  color: #424242;
+
+  margin-top: 18px;
+}
+.occupation {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  /* Gray (Muted) */
+
+  color: #8b8b8b;
+}
+.add-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Black */
+
+  color: #424242;
+  max-width: 340px;
+  margin-top: 14px;
+}
+.reviews-block__2 {
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.review__socials {
+  gap: 23px;
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 248px;
+  margin-bottom: 72.04px;
+}
+.wrapper {
+}
+.footer__wrapper {
+}
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logo {
+}
+.logo__footer {
+}
+.logo-link {
+}
+.footer-text {
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Gray (Muted) */
+
+  color: #8b8b8b;
+
+  max-width: 246px;
+}
+
+.footer__socials {
+  margin-top: 55.96px;
+
+  gap: 23px;
+}
+.social-link {
+}
+.nav {
+}
+.footer__nav {
+  gap: 40px;
+}
+.nav-link {
+}
